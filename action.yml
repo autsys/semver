@@ -1,0 +1,15 @@
+name: "Semver compare"
+description: "Check if semver a is greater than semver b"
+inputs:
+  a:
+    description: first semver, can contain v prefix
+    required: true
+  b:
+    description: second semver, can contain v prefix
+    required: true
+outputs:
+  gt: # boolean a > b
+    description: "If a is greater than b, return true else false."
+runs:
+  using: "node12"
+  main: "dist/index.js"
