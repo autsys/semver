@@ -9,5 +9,5 @@ try {
   const gt = semver.gt(ca, cb);
   core.setOutput("gt", gt);
 } catch (err) {
-  core.setError(err);
+  core.setFailed(err);
 }
