@@ -1,5 +1,5 @@
-name: "Semver compare"
-description: "Check if semver a is greater than semver b"
+name: Semver compare
+description: Check if semver a is greater than semver b
 inputs:
   a:
     description: first semver, can contain v prefix
